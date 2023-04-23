@@ -1,3 +1,5 @@
 # not-your-typical-calculator
 Not a calculator at all...
-![](image\readme\Untitled.mp4)
+
+[<img src="\image\readme\Untitled.mp4" width="100%">]
+
