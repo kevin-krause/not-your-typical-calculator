@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #29140e, #0a0104, #0c0b07, #200b0b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+/* 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    animation: opacidade 10s forwards;
+}
+
+@keyframes opacidade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.form-input {
+    padding: 0.6rem;
+    margin: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    align-items: center;
+    justify-content: center;
+}
+
+#math {
+    height: 40px;
+    width: 42px;
+    border-radius: 100px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    background: radial-gradient(#180c01, #351500, #3f1900);
+    cursor: pointer;
+    animation: container 9s;
+}
+
+#number-input {
+    height: 36px;
+    width: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    animation: container 6s;
+}
+
+.hide {
+    display: none;
+}
+
+#titulo {
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: container 10s;
+}
+
+.container {
+    background-image: radial-gradient(
+        circle farthest-side at var(--x) var(--y),
+        #180c01,
+        #5a1e06,
+        #220e03
+    );
+    background-size: 600% 600%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+    animation: container 6s;
+}
+
+@keyframes container {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
