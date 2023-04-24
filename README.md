@@ -1,5 +1,5 @@
 # not-your-typical-calculator
+
 Not a calculator at all...
 
-[<img src="\image\readme\print.png" width="100%">]
-
+![1682294720392](image/README/1682294720392.png)
